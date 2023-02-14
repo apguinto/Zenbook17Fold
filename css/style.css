@@ -1,0 +1,382 @@
+body{
+    background-color: #ffffff;
+}
+
+#header-container{
+    width: 100%;
+    height: 6vw;
+    background-color: #a5a5a5;
+}
+
+#logo{
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+#product{
+    padding: 1.5vw;
+    font-family: 'Myriad Pro';
+    font-size: 2vw;
+    font-weight: bold;
+    color: #000000 !important;
+    text-align: center;
+}
+
+#first-section{
+    padding: 4vw;
+    width: 100%;
+    height: 50vw;
+    background-image: linear-gradient(to bottom right, #373FB3, #58BADB);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#maintitle{
+    font-family: 'Raleway';
+    font-size: 5vw;
+    font-weight: bold;
+    color: #ffffff;
+    float: left;
+}
+
+#subtitle{
+    font-family: 'Raleway';
+    font-size: 4vw;
+    color: #ffffff;
+    float: left;
+}
+
+.product-picture{
+    width: 45vw;
+}
+
+#second-section{
+    width: 100%;
+    height: 42vw;
+    background-color: #ffffff;
+}
+
+#details{
+    padding: 5vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    height: 42vw;
+    font-family: 'Myriad Pro';
+    font-size: 2vw;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#third-section{
+    width: 100%;
+    height: 290vw;
+    background-image: linear-gradient(to bottom, #000000, #ffffff);
+}
+
+.section-title{
+    padding: 3vw;
+    font-family: 'Raleway';
+    font-size: 3vw;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+.line-separator{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 3vw;
+    width: 40%;
+    height: 0.5vw;
+    border-radius: 25px;
+    background-image: linear-gradient(to bottom right, #373FB3, #58BADB);
+}
+
+.container{
+    width: 100%;
+    height: 45vw;
+    display: flex;
+    align-items: center;
+}
+
+#laptop-mode-vk{
+    padding: 3vw;
+    padding-left: 5vw;
+    margin-top: 2vw;
+    text-align: left;
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+.mode{
+    font-family: 'Raleway';
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+.dimension{
+    font-family: 'Raleway';
+    font-size: 1.5vw;
+    font-weight: normal;
+}
+
+.description{
+    font-family: 'Raleway';
+    font-size: 2vw;
+    font-weight: normal;
+}
+
+#laptop-mode-bk{
+    margin-top: 2vw;
+    padding: 3vw;
+    padding-right: 5vw;
+    text-align: right;
+    color: #ffffff;
+}
+
+#desktop-mode{
+    margin-top: 2vw;
+    padding: 3vw;
+    padding-left: 5vw;
+    text-align: left;
+    color: #ffffff;
+}
+
+#tablet-mode{
+    margin-top: 2vw;
+    padding: 3vw;
+    padding-right: 5vw;
+    text-align: right;
+    color: #000000;
+}
+
+#reader-mode{
+    margin-top: 2vw;
+    padding: 3vw;
+    padding-left: 5vw;
+    text-align: left;
+    color: #000000;
+}
+
+#extended-mode{
+    margin-top: 2vw;
+    padding: 3vw;
+    padding-right: 5vw;
+    text-align: right;
+    color: #000000;
+}
+
+#fourth-section{
+    padding: 3.5vw;
+    width: 100%;
+    height: 42vw;
+    background-color: #ffffff;
+}
+
+#section-details{
+    padding: 2vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-family: 'Myriad Pro';
+    font-size: 2vw;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#fifth-section{
+    padding: 4vw;
+    width: 100%;
+    height: 50vw;
+    background-image: linear-gradient(to bottom right, #373FB3, #58BADB);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-container{
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#title-container{
+    height: 15vw;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+#product-name{
+    padding: 3vw;
+    padding-top: 10vw;
+}
+
+#product-model{
+    font-family: 'Raleway';
+    font-size: 3.5vw;
+    font-weight: bold;
+    color: #ffffff;
+    float: left;
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#button{
+    padding: 1vw 3vw;
+    background: none;
+    border: 0.3vw solid #000000;
+    border-radius: 5vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Myriad Pro';
+    font-size: 1.7vw;
+}
+
+#button:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#footer{
+    height: 20vw;
+    background-image: linear-gradient(to top, #4D4D4D, #E7E7E7);
+}
+
+.social-container{
+    height: 14vw;
+    background: none;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon{
+    width: 4vw;
+    margin: 5vw 1vw;
+}
+
+
+.line{
+    width: 100%;
+    height: 1%;
+    background-color: #949494;
+}
+
+.policies{
+    height: 5vw;
+    padding: 2vw;
+    text-align: center;
+    color: #000000;
+    font-family: 'Myriad Pro';
+    font-size: 1.7vw;
+}
+
+@media screen and (max-width: 700px){
+    .product-picture{
+        width: 100%;
+        align-items: center;
+    }
+
+    #first-section, #fifth-section{
+        height: 40vw;
+    }
+
+    #third-section{
+        height: 225vw;
+    }
+    
+    .container{
+        height: 35vw;
+    }
+
+    #product-name{
+        padding-top: 5vw;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .product-picture{
+        width: 90%;
+        align-items: center;
+    }
+
+    #maintitle{
+        font-size: 4vw;
+    }
+    #subtitle{
+        font-size: 3vw;
+    }
+
+    .mode{
+        font-size: 2.2vw;
+    }
+
+    .dimension{
+        font-size: 1.2vw;
+    }
+
+    .description{
+        font-size: 1.7vw;
+    }
+
+    #third-section{
+        height: 210vw;
+    }
+
+    .container{
+        height: 32vw;
+    }
+
+    #laptop-mode-vk, #desktop-mode, #reader-mode{
+        text-align: right;
+    }
+    #laptop-mode-bk, #tablet-mode, #extended-mode{
+        text-align: left;
+    }
+
+    #product-model{
+        font-size: 3.3;
+    }
+
+    #logo{
+        width: 15vw;
+    }
+}
+
+@media screen and (max-width: 500px){
+    p{
+        margin: 3px;
+    }
+    #maintitle{
+        font-size: 3.5vw;
+    }
+    #subtitle{
+        font-size: 2.5vw;
+    }
+    
+    .container {
+        padding-right: 2px;
+        padding-left: 2px;
+    }
+
+    #first-section, #fifth-section{
+        height: 35vw;
+    }
+}
